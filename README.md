@@ -1,2 +1,2 @@
-# django_orm
-A django ORM using PostgreSQL darelational tabase
+# Django ORM
+A django ORM using PostgreSQL relational database. 
