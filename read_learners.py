@@ -10,9 +10,6 @@ application = get_wsgi_application()
 from crud.models import *
 from datetime import date
 
-
-# Your code starts from here:
- # Find students with last name "Smith"
 learners_smith = Learner.objects.filter(last_name = 'Smith')
 print("1. Find learners with last name `Smith`")
 print(learners_smith)
