@@ -10,8 +10,6 @@ application = get_wsgi_application()
 from crud.models import *
 from datetime import date
 
-
-# Your code starts from here:
 def write_instructors():
     # Add instructors
     # Create a user
