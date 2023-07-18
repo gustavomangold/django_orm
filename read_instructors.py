@@ -10,8 +10,6 @@ application = get_wsgi_application()
 from crud.models import *
 from datetime import date
 
-
-# Your code starts from here:
 instructor_yan = Instructor.objects.get(first_name="Yan")
 print("1. Find a single instructor with first name `Yan`")
 print(instructor_yan)
@@ -77,10 +75,7 @@ print("\n")
 learners = Learner.objects.order_by(#<HINT> add dob with - as descending )[#<HINT> add index 0:2]
 print("2. Find top two youngest learners")
 print(learners)
-4
-asd
-asf
-asv # Find students with last name "Smith"
+# Find students with last name "Smith"
 learners_smith = Learner.objects.filter(#<HINT> add last_name check)
 print("1. Find learners with last name `Smith`")
 print(learners_smith)
