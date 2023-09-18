@@ -14,7 +14,7 @@ instructor_yan = Instructor.objects.get(first_name="Yan")
 print("1. Find a single instructor with first name `Yan`")
 print(instructor_yan)
 print("\n")
-# Note that there is no instructor with first name `Andy`
+# Aqui não existe ninguem chamado `Andy`
 # So the manager will throw an exception
 try:
     instructor_andy = Instructor.objects.get(first_name="Andy")
