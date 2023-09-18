@@ -1,4 +1,4 @@
-# Django specific settings
+# Django specific setting
 import inspect
 import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings")
